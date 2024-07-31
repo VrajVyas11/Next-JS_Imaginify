@@ -22,6 +22,7 @@ const MobileNav = () => {
     <header className='header absolute z-10'>
       <Link href="/" className=' flex items-center gap-2 md:py-2'>
         <Image src="/assets/images/logo-text.svg" alt='logo' width={150} height={150} />
+        <Image src="/assets/My_Logo.png" alt='logo' width={40} height={40} />
       </Link>
       <nav className=' flex gap-2'>
         <SignedIn>
@@ -38,12 +39,14 @@ const MobileNav = () => {
             </SheetTrigger>
             <SheetContent className='sheet-content sm:w-64'>
               <>
-                <Image
+              <div className=' flex gap-2'><Image
                   src="/assets/images/logo-text.svg"
                   alt='logo'
                   width={152}
                   height={23}
                 />
+                <Image src="/assets/My_Logo.png" alt='logo' width={40} height={40} /></div>
+                
                 <ul className='header-nav_elements'>
                   {
                     navLinks.map((link) => {
