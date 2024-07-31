@@ -35,7 +35,7 @@ const TransformedImage = ({ image, type, title, transformationConfig, isTransfor
               alt="Download"
               width={24}
               height={24}
-              className="pb-[6px]"
+              className={`pb-[6px] ${isTransforming?"hidden":""}`}
             />
           </button>
         )}
