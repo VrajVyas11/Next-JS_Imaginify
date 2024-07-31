@@ -92,8 +92,7 @@ Follow these steps to set up the project on your local machine:
    - Click on the "Fork" button at the top right corner of this repository's GitHub page.
 
 2. **Clone the Forked Repository:**
-   ```bash
-git clone https://github.com/VrajVyas11/Next-JS_Imaginify.git
+   ```bash git clone https://github.com/VrajVyas11/Next-JS_Imaginify.git
 
 3. **Navigate to the Project Directory:**
      cd Next-JS_Imaginify
